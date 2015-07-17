@@ -17,5 +17,5 @@ class CmdLineRunner(object):
         self.types = 'all' if types is None else types
         self.verbose = verbose
 
-    
-
+    def run(self):
+        """Run scrapping"""
